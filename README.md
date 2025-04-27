@@ -15,14 +15,19 @@ cd text-classifier
 tar -xzf ag_news_csv.tar.gz
 ```
 
-3. Crie e ative o ambiente virtual:
+3. Rodar o script para rodar o codigo:
+```bash
+uv run .\main.py
+```
+
+4. Crie e ative o ambiente virtual:
 ```bash
 uv venv
 .venv\Scripts\activate  # No Windows
 source .venv/bin/activate  # No Linux/Mac
 ```
 
-4. Instale as dependências exatas do arquivo de lock:
+5. Instale as dependências exatas do arquivo de lock:
 ```bash
 uv pip install -r uv.lock
 ```
