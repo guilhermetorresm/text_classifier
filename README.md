@@ -10,14 +10,19 @@ git clone [URL_DO_REPOSITÓRIO]
 cd text-classifier
 ```
 
-2. Crie e ative o ambiente virtual:
+2. Descompacte o dataset:
+```bash
+tar -xzf ag_news_csv.tar.gz
+```
+
+3. Crie e ative o ambiente virtual:
 ```bash
 uv venv
 .venv\Scripts\activate  # No Windows
 source .venv/bin/activate  # No Linux/Mac
 ```
 
-3. Instale as dependências exatas do arquivo de lock:
+4. Instale as dependências exatas do arquivo de lock:
 ```bash
 uv pip install -r uv.lock
 ```
