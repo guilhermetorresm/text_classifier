@@ -5,16 +5,9 @@ description = "Classificador de textos para o dataset AG News"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "matplotlib>=3.10.1",
+    "nltk>=3.9.1",
     "pandas>=2.2.0",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
 ]
-
-[project.urls]
-Repository = "[URL_DO_REPOSITÓRIO]"
-
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
-# Configurações de ferramentas de desenvolvimento
-[tool.ruff]
-line-length = 100
