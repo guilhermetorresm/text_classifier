@@ -6,7 +6,7 @@ Este é um projeto de classificação de texto desenvolvido como parte da Tarefa
 
 1. Clone o repositório:
 ```bash
-git clone [URL_DO_REPOSITÓRIO]
+git clone https://github.com/guilhermetorresm/text_classifier.git
 cd text-classifier
 ```
 
