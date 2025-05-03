@@ -773,7 +773,7 @@ def main():
     start_time = time.time()
     
     # Criar a pasta results se não existir
-    results_dir = 'results_test'
+    results_dir = 'results'
     if not os.path.exists(results_dir):
         os.makedirs(results_dir)
     
