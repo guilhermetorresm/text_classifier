@@ -5,9 +5,13 @@ description = "Classificador de textos para o dataset AG News"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "gensim>=4.3.3",
+    "imblearn>=0.0",
     "matplotlib>=3.10.1",
     "nltk>=3.9.1",
     "pandas>=2.2.0",
     "scikit-learn>=1.6.1",
     "seaborn>=0.13.2",
+    "torch>=2.7.0",
+    "transformers>=4.51.3",
 ]
